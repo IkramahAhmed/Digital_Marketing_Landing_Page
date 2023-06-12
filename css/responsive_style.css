@@ -1,0 +1,182 @@
+/* laptop screen */
+@media (max-width:1300px) {
+    /* navbar */
+  
+    .header_wrapper .learn-more-btn{
+        padding: 12px 15px !important;
+        margin-left: 10px;
+    }
+    .services_wrapper .tab-content .tab-pane img{
+        width: 580px;
+        height: 580px;
+    }
+}
+@media (max-width:1200px) {
+    .service-item-wrap .tab-content img {
+        width: 100%;
+    }
+
+    .service-menu-area ul li a {
+        margin-bottom: .8125rem;
+        overflow: hidden;
+    }
+
+    .service-menu-area ul li:nth-child(1) {
+        margin-left: -4.4375rem;
+    }
+
+    .service-menu-area ul li:nth-child(2) {
+        margin-left: -6.9375rem;
+    }
+
+    .service-menu-area ul li:nth-child(3) {
+        margin-left: -9.375rem;
+    }
+
+    .service-menu-area ul li:nth-child(4) {
+        margin-left: -12.8125rem;
+    }
+
+    .service-menu-area ul li a h5 {
+        margin-bottom: .375rem;
+    }
+  
+}
+/* second screen size */
+@media (max-width:1230px) {
+    /* navbar */
+    .header_wrapper .menu-navbar-nav{
+        width: auto;
+    }
+    .header_wrapper .nav-item{
+        margin: 0 3px;
+    }
+    .header_wrapper .learn-more-btn{
+        padding: 12px 10px !important;
+    }
+    .banner_wrapper{
+        display: flex;
+        width: 100%;
+        /* top left/right bottom */
+        padding: 120px 0 125px;
+    }
+    .banner_wrapper .banner-title{
+        font-size: 50px;
+    }
+    /* .services_wrapper .tab-content .tab-pane img{
+        width: 280px;
+    } */
+}
+@media (max-width:1070px) {
+
+    /* navbar */
+    .header_wrapper .nav-item .nav-link{
+        font-size: 16px;
+    }
+    .header_wrapper .learn-more-btn{
+        padding: 12px 20px !important;
+    }
+    /* about */
+.about_wrapper .about_title{
+    font-size: 16px;
+}
+/* .services_wrapper .tab-content .tab-pane img{
+    width: 380px;
+} */
+
+.services_wrapper .tab-content .tab-pane img{
+    width: 380px;
+
+ display: flex;
+ /* margin-left: 140px; */
+ justify-content: center;
+ align-items: center;
+
+}
+}
+
+/* mobile */
+@media (max-width:991px) {
+    /* navbar */
+    .header_wrapper .navbar-brand-img{
+        width: 80px;
+    }
+    /* toggle pay focus araha tha black color ka falitu men  */
+    .header_wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+     font-size: 18px;   
+    }
+    .header_wrapper .nav-item:nth-last-child(1) .nav-link{
+        margin-bottom: 20px;
+    }
+    .header_wrapper .learn-more-btn{
+        padding: 12px 29px !important;
+    }
+/* mobile screen pr saray link pay pechay white backgorund lagaya he  */
+    .header_wrapper .navbar-collapse{
+        background: var(--bg-white);
+    }
+    .banner_wrapper .banner-title{
+        font-size: 35px;
+    }
+    /* about */
+    .about_wrapper .about_number{
+        margin: 20px auto;
+    }
+    .about_wrapper .about_title{
+        font-size: 24px;
+    }
+    /* services */
+    /* .service-menu-area{
+        padding: 1.5rem 0.5rem;
+    } */
+    .service-menu-area ul li{
+        margin-left: unset !important;
+    }
+    /* .services_wrapper .tab-content .tab-pane img{
+        width: 180px;
+    } */
+}
+/* mobile */
+@media (max-width:767px) {
+.banner_wrapper{
+    padding: 100px 0 100px;
+}
+.banner_wrapper .row{
+    flex-direction: column-reverse;
+}
+.banner_wrapper .learn-more-btn-section{
+    justify-content: center;
+}
+/* .about_wrapper .row{
+    flex-direction: column-reverse;
+}
+.about_wrapper .learn-more-btn {
+    margin-bottom: 30px;
+} */
+.free_trial .free_title{
+    font-size: 24px;
+}
+/* faq */
+.faq_wrapper .accordion-button{
+    font-size: 15px;
+}
+.footer_wrapper .footer_logo {
+  text-align: center;    
+}
+.footer_wrapper .footer_logo img{
+    max-width: 40%;
+  
+}
+.services_wrapper .tab-content .tab-pane img{
+    width: 380px;
+    height: 480px;
+}
+}
+
